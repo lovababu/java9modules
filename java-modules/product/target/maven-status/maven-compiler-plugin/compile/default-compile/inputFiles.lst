@@ -1,2 +1,4 @@
-C:\Users\padaldl\workspace\practice\java9modules\product\src\main\java\org\avol\ekart\product\ProductRepository.java
-C:\Users\padaldl\workspace\practice\java9modules\product\src\main\java\org\avol\ekart\product\Product.java
+C:\Users\padaldl\workspace\practice\java9modules\java-modules\product\src\main\java\org\avol\ekart\product\entity\Product.java
+C:\Users\padaldl\workspace\practice\java9modules\java-modules\product\src\main\java\module-info.java
+C:\Users\padaldl\workspace\practice\java9modules\java-modules\product\src\main\java\org\avol\ekart\product\db\Connection.java
+C:\Users\padaldl\workspace\practice\java9modules\java-modules\product\src\main\java\org\avol\ekart\product\dao\ProductRepository.java

@@ -1,4 +1,4 @@
-package org.avol.ekart.product;
+package org.avol.ekart.product.entity;
 
 /**
  * @author Lovababu P.

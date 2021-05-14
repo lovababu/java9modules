@@ -1,2 +1,4 @@
-org\avol\ekart\product\ProductRepository.class
-org\avol\ekart\product\Product.class
+org\avol\ekart\product\db\Connection.class
+module-info.class
+org\avol\ekart\product\entity\Product.class
+org\avol\ekart\product\dao\ProductRepository.class

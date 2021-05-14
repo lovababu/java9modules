@@ -1,6 +1,6 @@
 package org.avol.ekart.order;
 
-import org.avol.ekart.product.Product;
+import org.avol.ekart.product.entity.Product;
 
 /**
  * @author Lovababu P.

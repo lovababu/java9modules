@@ -3,3 +3,6 @@ target/
 *.class
 .idea/
 .mvn/
+order/target
+product/target
+main/target

@@ -1,6 +1,7 @@
 package org.avol.ekart.order;
 
 import org.avol.ekart.product.ProductRepository;
+import org.avol.ekart.product.db.Connection;
 
 import java.util.Random;
 
@@ -18,6 +19,7 @@ public class OrderServiceImpl {
     }
 
     public Order placeOrder(int productId) {
+        Connection connection = new Connection(); //can be possible, as we are including entire module in classpath.
         return new Order(new Random().nextInt(), productRepository.findById(productId));
     }
 }

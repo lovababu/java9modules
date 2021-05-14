@@ -1,7 +1,5 @@
 package org.avol.ekart.product.db;
 
-import java.util.Objects;
-
 /**
  * Private class should not be exposed to other module.
  *

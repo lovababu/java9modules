@@ -1,6 +1,7 @@
 package org.avol.ekart.order;
 
-import org.avol.ekart.product.ProductRepository;
+import org.avol.ekart.product.dao.ProductRepository;
+//import org.avol.ekart.product.db.Connection;  //not accessible
 
 import java.util.Random;
 
@@ -18,6 +19,7 @@ public class OrderServiceImpl {
     }
 
     public Order placeOrder(int productId) {
+        //Connection connection = new Connection(); //can't possible, since we didn't export the .db package.
         return new Order(new Random().nextInt(), productRepository.findById(productId));
     }
 }

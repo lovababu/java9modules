@@ -1,4 +1,6 @@
-package org.avol.ekart.product;
+package org.avol.ekart.product.dao;
+
+import org.avol.ekart.product.entity.Product;
 
 import java.util.HashMap;
 import java.util.Map;
