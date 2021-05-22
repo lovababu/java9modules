@@ -1,6 +1,8 @@
 package org.avol.ekart.product.entity;
 
 /**
+ * Product entity object.
+ *
  * @author Lovababu P.
  * DateTime: 14-05-2021
  * Project Name: java9-modules

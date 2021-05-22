@@ -9,11 +9,13 @@ import org.avol.ekart.product.entity.Product;
  **/
 public class Order {
     private final int id;
+    private final String dispatchType;
     private final Product product;
 
-    public Order(int id, Product product) {
+    public Order(int id, Product product, String dispatchType) {
         this.id = id;
         this.product = product;
+        this.dispatchType = dispatchType;
     }
 
     public int getId() {
