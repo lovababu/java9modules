@@ -16,4 +16,4 @@
 
   ```OrderServiceImpl.java#placeOrder()``` method. 
   We cannot access the ```Connection``` class from the package ```.db``` of ```Product``` module, due to strong encapsulation provided by java 9 modules.
-  For more information on java 9 module. Refer [https://github.com/lovababu/java9modules/blob/main/java-modules/README.md](java9modules)
+  For more information on java 9 module. Refer [java9modules](https://github.com/lovababu/java9modules/tree/main/java-modules)
