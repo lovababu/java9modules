@@ -1,13 +1,24 @@
 # Java 9 Modularity.
     main
         - Represent main runner module, which is depends on order module.
-        - module-info.java, requires order module (product module with transitive dependency.)
+        - module-info.java, requires order & dispatch module (product module with transitive dependency.)
+        - pom.xml, both domestic and internal modules are dependencies, comment any one and observe the output.
     order
         - Represents the order module, which is depends on product module.
         - module-info.java, requires product module.    
     product
         - Represents the product module.
         - module-info.java, exports .entity and .dao packages.
+    dispatch
+        - Service interface module.
+        - Dispatcher.java is the interface expecting providers to implement it.
+    domestic
+        - Service provider, implements dispatch module Dispatcher interface.
+        - module-info.java, "provides org.avol.ekart.dispatch.Dispatcher with org.avol.ekart.domestic.DispatcherImpl;"
+    international
+        - Service provider, implements dispatch module Dispatcher interface.
+        - module-info.java, "provides org.avol.ekart.dispatch.Dispatcher with org.avol.ekart.international.DispatcherImpl;"
+
 
 Read comment lines on .java files for better understanding modularity over mvn modules.
 
